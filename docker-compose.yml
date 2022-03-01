@@ -1,0 +1,19 @@
+version: "3"
+services:
+  torch-torchvision:
+      container_name: torch-torchvision
+      build: .
+      volumes:
+        - .:/home/jovyan/work
+      ports:
+        - "8888:8888"
+        - "6006:6006"
+      environment:
+        - JUPYTER_ENABLE_LAB=yes
+      deploy:
+        resources:
+          reservations:
+            devices:
+            -  driver: nvidia
+               count: all
+               capabilities: [gpu]
