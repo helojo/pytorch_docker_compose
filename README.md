@@ -1,16 +1,10 @@
 # pytorch-docker-compose
 ## Features
-:flashlight: **Python version:	 3.9.10**
+:flashlight: **Base image jupyter/tensorflow-notebook:tensorflow-2.6.2**
 
-*Base image jupyter/tensorflow-notebook:tensorflow-2.6.2*
+:flashlight: **Last versions of torch, torchvision, tensorboard installed from pip**
 
-:flashlight: **Torch version:	 1.10.2+cu102**
-
-*Last versions of torch, torchvision, tensorboard installed from pip*
-
-:flashlight: **Torch device:	 cuda**
-
-*Compatibility Linux only*
+:flashlight: **Torch device "cuda" (compatibility Linux only)**
 
 :flashlight: **Port 8888 for JupyterLab, port 6060 for Tensorboard**
 
@@ -21,7 +15,9 @@
 ### Install Docker Engine, Docker Compose, NVIDIA Container Toolkit
 Follow this guide: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 
-### Set volumes (optional)
+### Clone repository
+    git clone https://github.com/ScuOG/pytorch-docker-compose.git
+### *(optional)* Set volumes
 Edit docker-compose.yml
 
 - Default sync based on current folder:
@@ -42,6 +38,6 @@ Copy token from terminal
 
 Open http://localhost:8888/lab and paste token
 
-Set dark theme: Settings > Theme > JupyterLab Dark (optional)
+*(optional)*    Set dark theme: Settings > Theme > JupyterLab Dark
 
-Open "template.ipynb" (optional)
+*(optional)*    Open "template.ipynb"
