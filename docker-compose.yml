@@ -1,7 +1,7 @@
 version: "3"
 services:
-  torch-torchvision:
-      container_name: torch-torchvision
+  pytorch-docker-compose:
+      container_name: pytorch-docker-compose
       build: .
       volumes:
         - .:/home/jovyan/work
