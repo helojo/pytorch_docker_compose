@@ -1,6 +1,6 @@
 # pytorch-docker-compose
 ## Features
-:flashlight: **Python version:	 3.9.7**
+:flashlight: **Python version:	 3.9.10**
 
 *Base image jupyter/tensorflow-notebook:tensorflow-2.6.2*
 
