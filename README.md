@@ -1,40 +1,47 @@
 # pytorch-docker-compose
-:flashlight: Python version:	 3.9.7
+## Features
+:flashlight: **Python version:	 3.9.7**
 
-    Base image jupyter/tensorflow-notebook:tensorflow-2.6.2 (edit Dockerfile for specific image)
+*Base image jupyter/tensorflow-notebook:tensorflow-2.6.2*
 
-:flashlight: Torch version:	 1.10.2+cu102
+:flashlight: **Torch version:	 1.10.2+cu102**
 
-    Last versions of torch, torchvision, tensorboard installed from pip (edit Dockerfile for specific versions)
+*Last versions of torch, torchvision, tensorboard installed from pip*
 
-:flashlight: Torch device:	 cuda
+:flashlight: **Torch device:	 cuda**
 
-    Compatibility Linux only
+*Compatibility Linux only*
 
-:flashlight: Port 8888 for JupyterLab, port 6060 for Tensorboard
+:flashlight: **Port 8888 for JupyterLab, port 6060 for Tensorboard**
 
-:flashlight: Volumes from local directory
+:flashlight: **Volumes from local directory**
 
 
 ## How to run
 ### Install Docker Engine, Docker Compose, NVIDIA Container Toolkit
 Follow this guide: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 
-### (Optional) set volumes by editing docker-compose.yml:
-Default sync based on current folder:
+### Set volumes (optional)
+Edit docker-compose.yml
+
+- Default sync based on current folder:
 ```
     - volumes:
       - ".:/home/jovyan/work"
 ```
-Sync specific folder:
+- Sync specific folder:
 ```
     - volumes:
       - "~/Documents:/home/jovyan/work"
 ```
-### Start:
+### Start
 ```
 docker-compose up
 ```
+Copy token from terminal
 
-- copy token from terminal
-- open http://localhost:8888/lab and paste token
+Open http://localhost:8888/lab and paste token
+
+Set dark theme: Settings > Theme > JupyterLab Dark (optional)
+
+Open "template.ipynb" (optional)
