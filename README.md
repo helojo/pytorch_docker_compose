@@ -14,7 +14,7 @@
 
 :flashlight: **Ports:**
 
-&emsp;&emsp;&emsp;&emsp;8888 for JupyterLab, 6006 for Tensorboard
+&emsp;&emsp;&emsp;&emsp;8888 for JupyterLab, 6006 for TensorBoard
 
 :flashlight: **Volumes:**
 
