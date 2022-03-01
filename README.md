@@ -1,16 +1,24 @@
 # pytorch-docker-compose
 ## Features
-:flashlight: **Base image jupyter/tensorflow-notebook:tensorflow-2.6.2**
+:flashlight: **Base image:**
 
-:flashlight: **torch, torchvision, tensorboard installed from pip**
+&emsp;&emsp;&emsp;&emsp;jupyter/tensorflow-notebook:tensorflow-2.6.2
 
-:flashlight: **Torch device "cuda" (Linux only)**
+:flashlight: **Packages from pip:**
 
-:flashlight: **Port 8888 for JupyterLab, port 6060 for Tensorboard**
+&emsp;&emsp;&emsp;&emsp;torch, torchvision, tensorboard
 
-:flashlight: **Volumes from local directory**
+:flashlight: **Torch device:**
 
+&emsp;&emsp;&emsp;&emsp;cuda (Linux only)
 
+:flashlight: **Ports:**
+
+&emsp;&emsp;&emsp;&emsp;8888 for JupyterLab, 6060 for Tensorboard
+
+:flashlight: **Volumes:**
+
+&emsp;&emsp;&emsp;&emsp;sync from local directory
 ## How to run
 ### Install Docker Engine, Docker Compose, NVIDIA Container Toolkit
 Follow this guide: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
