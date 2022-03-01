@@ -2,7 +2,7 @@
 ## Features
 :flashlight: **Base image jupyter/tensorflow-notebook:tensorflow-2.6.2**
 
-:flashlight: **Libraries torch, torchvision, tensorboard installed from pip (last versions)**
+:flashlight: **torch, torchvision, tensorboard installed from pip**
 
 :flashlight: **Torch device "cuda" (Linux only)**
 
