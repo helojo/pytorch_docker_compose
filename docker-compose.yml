@@ -1,7 +1,7 @@
 version: "3"
 services:
-  pytorch-docker-compose:
-      container_name: pytorch-docker-compose
+  pytorch_notebook:
+      container_name: pytorch_notebook
       build: .
       volumes:
         - .:/home/jovyan/work
