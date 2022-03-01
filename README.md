@@ -21,7 +21,7 @@
 &emsp;&emsp;&emsp;&emsp;sync from local directory
 ## How to run
 ### Install Docker Engine, Docker Compose, NVIDIA Container Toolkit
-Follow this guide: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+Instructions: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 ### Clone repository
     git clone https://github.com/ScuOG/pytorch-docker-compose.git
 ### *(optional)* Set volumes
