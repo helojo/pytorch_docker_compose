@@ -4,7 +4,7 @@
 
 :flashlight: **Last versions of torch, torchvision, tensorboard installed from pip**
 
-:flashlight: **Torch device "cuda" (compatibility Linux only)**
+:flashlight: **Torch device "cuda" (Linux only)**
 
 :flashlight: **Port 8888 for JupyterLab, port 6060 for Tensorboard**
 
