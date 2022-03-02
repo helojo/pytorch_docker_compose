@@ -1,4 +1,4 @@
-# pytorch-docker-compose
+# pytorch_docker_compose
 ## Features
 :flashlight: **Base image:**
 
