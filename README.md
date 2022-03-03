@@ -25,7 +25,7 @@ Guide for Linux: https://docs.nvidia.com/datacenter/cloud-native/container-toolk
 ### Clone repository
     git clone https://github.com/ScuOG/pytorch-docker-compose.git
 ### *(optional)* Set volumes
-Edit docker-compose.yml
+Edit "docker-compose.yml"
 
 - Default sync based on current folder:
 ```
