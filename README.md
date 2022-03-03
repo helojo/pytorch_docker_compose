@@ -39,6 +39,7 @@ Edit "docker-compose.yml"
 ```
 ### Start
 ```
+cd pytorch-docker-compose
 docker-compose up
 ```
 Copy token from terminal
